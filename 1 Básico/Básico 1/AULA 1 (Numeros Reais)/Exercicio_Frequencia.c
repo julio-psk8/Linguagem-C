@@ -1,12 +1,7 @@
 /* ============================================================================
-Autor: Julio
-                                       
-                                       Módulo 1 Aula 0
-                                       
-                                        Titulo Aula:
-                                               
-                                        HELLOW WORLD !
-
+Autor: Julio                                 
+Módulo 1 Aula 1
+Titulo: Calculo da Frequência
 
 ============================================================================ */
 
@@ -22,7 +17,13 @@ Autor: Julio
 /* --- Função Principal --- */
 main()
 {
-  printf("Hellow world ! \n");
+  float pi= 3.14,
+        r=  3000,
+        c=  1.0e-6,
+        f;
+        
+  f= 1/(2*pi*r*c);
+  printf("O valor da frequencia e= %.2f\n", f);
   
   
   system("PAUSE");

@@ -1,11 +1,7 @@
 /* ============================================================================
-Autor: Julio
-                                       
-                                       Módulo 1 Aula 0
-                                       
-                                        Titulo Aula:
-                                               
-                                        HELLOW WORLD !
+Autor: Julio                                 
+Módulo 1 Aula 1
+Titulo: Calculo - Divisor de Tensão
 
 
 ============================================================================ */
@@ -22,8 +18,15 @@ Autor: Julio
 /* --- Função Principal --- */
 main()
 {
-  printf("Hellow world ! \n");
-  
+   float R1, R2, vin, vout;
+   
+         R1 = 10.0E3;
+         R2 = 2.0E3;
+         vin = 15.0;
+         
+   vout = vin*R2/(R2+R1);
+   printf("vout= %.2f\n",vout);
+
   
   system("PAUSE");
   return 0;                                      /* retorna 0, se main for executada corretamente */

@@ -1,12 +1,7 @@
 /* ============================================================================
-Autor: Julio
-                                       
-                                       Módulo 1 Aula 0
-                                       
-                                        Titulo Aula:
-                                               
-                                        HELLOW WORLD !
-
+Autor: Julio                                 
+Módulo 1 Aula 1
+Titulo: Cálculo - Lei de Ohm em notação cientifica
 
 ============================================================================ */
 
@@ -22,8 +17,11 @@ Autor: Julio
 /* --- Função Principal --- */
 main()
 {
-  printf("Hellow world ! \n");
-  
+     float resistor = 5.0E3, /* resistor de 5k */
+     voltage = 12.0, /* fonte de 12V */
+     current;
+     current = voltage/resistor; /* Lei de Ohm */
+     printf("I= %.2E\n", current);
   
   system("PAUSE");
   return 0;                                      /* retorna 0, se main for executada corretamente */
